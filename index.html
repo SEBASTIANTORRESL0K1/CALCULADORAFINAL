@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora Básica</title>
+</head>
+<div>
+    <input type="text" id="display" disabled> <!--disabled quiere decir que no se puede modificar el input, no es manipulable -->
+   
+      
+       <br><br>
+        <div id="espacioBotones1">
+            <button class="buttons" onclick="agregarnumero('7')">7</button>
+            <button class="buttons" onclick="agregarnumero('8')">8</button>
+            <button class="buttons" onclick="agregarnumero('9')">9</button>
+            <button class="buttons" onclick="agregaroperador('/')">/</button>
+            <br>   <br>
+        </div>
+        <br>
+        <div id="espacioBotones2">
+            <button class="buttons" onclick="agregarnumero('4')">4</button>
+            <button class="buttons" onclick="agregarnumero('5')">5</button>
+            <button class="buttons" onclick="agregarnumero('6')">6</button>
+            <button class="buttons" onclick="agregaroperador('*')">*</button>
+            <br>   <br>
+        </div>
+        <br>
+        <div id="espacioBotones3">  
+            <button class="buttons" onclick="agregarnumero('1')">1</button>
+            <button class="buttons" onclick="agregarnumero('2')">2</button>
+            <button class="buttons" onclick="agregarnumero('3')">3</button>
+            <button class="buttons" onclick="agregaroperador('-')">-</button>
+            <br>   <br>
+        </div>
+        <br>
+        <div id="espacioBotones4">
+            <button class="buttons" onclick="agregarnumero('0')">0</button>
+            <!-- <button class="buttons" onclick="agregaroperador('.')">.</button> -->
+            <button class="buttons" onclick="calcular()">=</button>
+            <button class="buttons" onclick="agregaroperador('+')">+</button>
+            <br>  <br>
+        </div>
+        <br>
+        <div id="espacioBotones5">
+            <button class="buttons1" onclick="borrarUltimoCaracter()">⌫</button>
+            <button class="buttons1" onclick="borrarTodo()">Borrar Todo</button>
+            <br>   <br>
+        </div>
+    
+
+    <script src="app.js"></script>
+</body>
+</html>

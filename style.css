@@ -1,0 +1,48 @@
+body {
+    background-color: #219abf;
+}
+  
+
+#display {
+    text-align: center;
+    width: 98%;
+    padding: 10px;
+    font-family: "Arial";
+    font-size:25px;
+    text-align: center;
+}
+.buttons{
+    width: 20%;
+    background-color: aqua;
+    font-family: "Arial";
+    font-size:25px;
+}
+#espacioBotones1{
+    display: flex;
+    justify-content: space-around;
+    height:20%
+}
+#espacioBotones2{
+    display: flex;
+    justify-content: space-around;
+}
+#espacioBotones3{
+    display: flex;
+    justify-content: space-around;
+}
+#espacioBotones4{
+    display: flex;
+    justify-content: space-around;
+
+}
+#espacioBotones5{
+    display: flex;
+    justify-content: space-around;
+
+}
+.buttons1{
+    width: 20%;
+    background-color: aqua;
+    font-family: "Arial";
+    font-size:25px;
+}
